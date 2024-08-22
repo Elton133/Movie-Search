@@ -1,7 +1,4 @@
-body{
-    margin: 0;
-    background-color: black;
-}
+
 form{
     display: flex;
     align-items: center;
@@ -12,24 +9,25 @@ form{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 form{
     flex-direction: column;
 
 }
 input{
-    width: 20%;
-    height: 30px;
+    width: 27%;
+    height: 35px;
+    border: 2px solid rgb(188, 186, 186);
     border-radius: 10px;
-    padding-left: 10px;
+    padding-left: 1em;
     color: black;
-    background-color: rgb(230, 227, 227);
+    background-color: transparent;
 }
-button{
+/* button{
     margin: 0.6em;
     padding: 0.3em;
-}
+} */
 img{
     display: block;
     margin: 0.8em 0.8em 0 15em;
