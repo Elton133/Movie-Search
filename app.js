@@ -6,7 +6,6 @@ form.addEventListener("submit", async function (e) {
   const config = { params: { q: searchTerm } };
   const res = await axios.get(`https://api.tvmaze.com/search/shows`, config);
   console.log(res);
-  //   console.log(res.data[0].show.image.medium);
   displayImages(res.data);
   form.elements.query.value = "";
 });
@@ -18,5 +17,24 @@ const displayImages = (shows) => {
       img.src = result.show.image.medium;
       document.body.append(img);
     }
+    const title = document.createElement("h3");
+    title.innerText = result.show.name;
+    document.body.append(title);
+
+    const rating = document.createElement("p");
+    rating.innerText = `Rating: ${result.show.rating.average || "N/A"}`;
+    document.body.append(rating);
+
+    const country = document.createElement("p");
+    country.innerText = `Country: ${
+      result.show.network ? result.show.network.country.name : "N/A"
+    }`;
+    document.body.append(country);
+
+    const genre = document.createElement("p");
+    genre.innerText = `Genre: ${
+      result.show.genres.length > 0 ? result.show.genres.join(", ") : "N/A"
+    }`;
+    document.body.append(genre);
   }
 };
