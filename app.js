@@ -17,6 +17,7 @@ const displayImages = (shows) => {
       img.src = result.show.image.medium;
       document.body.append(img);
     }
+
     const title = document.createElement("h3");
     title.innerText = result.show.name;
     document.body.append(title);
