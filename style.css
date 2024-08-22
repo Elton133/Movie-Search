@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("mason-kimbarovsky-E5bGCHzjpr8-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+form{
+    flex-direction: column;
+
+}
+input{
+    width: 30%;
+    height: 25px;
+}
+button{
+    margin: 0.6em;
+    padding: 0.3em;
+}
+img{
+    display: block;
+    margin: 0.8em 0.8em 0 15em;
+    border: 2px solid black;
+}
