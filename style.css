@@ -19,8 +19,12 @@ form{
 
 }
 input{
-    width: 30%;
-    height: 25px;
+    width: 20%;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: black;
+    background-color: rgb(230, 227, 227);
 }
 button{
     margin: 0.6em;
