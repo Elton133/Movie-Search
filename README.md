@@ -40,7 +40,7 @@ To run this project locally, follow these steps:
 
 ## Live Demo
 
-You can view a live demo of the application [here](#) (replace `#` with the link to your live demo if hosted).
+You can view a live demo of the application [here](https://moviesmazeapi.netlify.app) (replace `#` with the link to your live demo if hosted).
 
 ## Contributing
 
