@@ -16,7 +16,6 @@ const displayImages = (shows) => {
   // Clear previous results
   document.body.innerHTML = "";
 
-  // Create a container for the results
   const resultsContainer = document.createElement("div");
   resultsContainer.style.display = "flex";
   resultsContainer.style.flexWrap = "wrap";
