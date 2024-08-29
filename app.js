@@ -51,7 +51,6 @@ const displayImages = (shows) => {
       title.style.marginBottom = "10px";
       showDiv.appendChild(title);
 
-      // Rating
       const rating = document.createElement("p");
       rating.innerText = `Rating: ${result.show.rating.average || "N/A"}`;
       rating.style.margin = "5px 0";
@@ -64,7 +63,6 @@ const displayImages = (shows) => {
       country.style.margin = "5px 0";
       showDiv.appendChild(country);
 
-      // Genre
       const genre = document.createElement("p");
       genre.innerText = `Genre: ${
         result.show.genres.length > 0 ? result.show.genres.join(", ") : "N/A"
