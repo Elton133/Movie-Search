@@ -44,7 +44,6 @@ const displayImages = (shows) => {
       img.style.marginBottom = "10px";
       showDiv.appendChild(img);
 
-      // Title
       const title = document.createElement("h3");
       title.innerText = result.show.name;
       title.style.fontSize = "1.25rem";
