@@ -57,7 +57,6 @@ const displayImages = (shows) => {
       rating.style.margin = "5px 0";
       showDiv.appendChild(rating);
 
-      // Country
       const country = document.createElement("p");
       country.innerText = `Country: ${
         result.show.network ? result.show.network.country.name : "N/A"
