@@ -13,7 +13,6 @@ form.addEventListener("submit", async function (e) {
 });
 
 const displayImages = (shows) => {
-  // Clear previous results
   document.body.innerHTML = "";
 
   const resultsContainer = document.createElement("div");
