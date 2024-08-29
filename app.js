@@ -27,20 +27,20 @@ const displayImages = (shows) => {
   for (let result of shows) {
     if (result.show.image) {
       const showDiv = document.createElement("div");
-      showDiv.style.flex = "1 1 300px"; // Adjust as needed
+      showDiv.style.flex = "1 1 300px";
       showDiv.style.maxWidth = "300px";
       showDiv.style.boxSizing = "border-box";
       showDiv.style.border = "1px solid #ddd";
       showDiv.style.borderRadius = "8px";
       showDiv.style.padding = "10px";
       showDiv.style.textAlign = "center";
-      showDiv.style.backgroundColor = "#333"; // Background color for visibility
-      showDiv.style.color = "#fff"; // Text color for contrast
+      showDiv.style.backgroundColor = "#333";
+      showDiv.style.color = "#fff";
 
       // Image
       const img = document.createElement("img");
       img.src = result.show.image.medium;
-      img.style.width = "100%"; // Make the image fit the container
+      img.style.width = "100%";
       img.style.height = "auto";
       img.style.borderRadius = "8px";
       img.style.marginBottom = "10px";
@@ -49,7 +49,7 @@ const displayImages = (shows) => {
       // Title
       const title = document.createElement("h3");
       title.innerText = result.show.name;
-      title.style.fontSize = "1.25rem"; // Adjust as needed
+      title.style.fontSize = "1.25rem";
       title.style.marginBottom = "10px";
       showDiv.appendChild(title);
 
