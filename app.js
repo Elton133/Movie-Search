@@ -35,7 +35,6 @@ const displayImages = (shows) => {
       showDiv.style.backgroundColor = "#333";
       showDiv.style.color = "#fff";
 
-      // Image
       const img = document.createElement("img");
       img.src = result.show.image.medium;
       img.style.width = "100%";
