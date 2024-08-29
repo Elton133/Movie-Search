@@ -75,7 +75,6 @@ const displayImages = (shows) => {
       genre.style.margin = "5px 0";
       showDiv.appendChild(genre);
 
-      // Append to results container
       resultsContainer.appendChild(showDiv);
     }
   }
