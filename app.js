@@ -13,8 +13,6 @@ form.addEventListener("submit", async function (e) {
 });
 
 const displayImages = (shows) => {
-  document.body.innerHTML = "";
-
   const resultsContainer = document.createElement("div");
   resultsContainer.style.display = "flex";
   resultsContainer.style.flexWrap = "wrap";
