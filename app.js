@@ -1,3 +1,5 @@
+const scrollreveal = require("scrollreveal");
+
 const form = document.querySelector("#searchForm");
 const resultsContainer = document.querySelector("#resultsContainer");
 

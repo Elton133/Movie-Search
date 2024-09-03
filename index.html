@@ -8,11 +8,12 @@
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <body class="m-0 bg-black text-white">
     <form action="" id="searchForm">
-        <h1 class="text-7xl font-bold font-sans mb-5">Movie Search</h1>
+        <h1 class="text-7xl font-bold font-sans mb-5 header">Movie Search</h1>
         <input class="pl-5 bg-transparent" type="text" placeholder="Search Title" name="query">
         <button><a href="#_" class="relative inline-block px-4 py-2 font-medium group my-5">
                 <span
@@ -25,5 +26,6 @@
     <div id="resultsContainer" class="w-full max-w-4xl p-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8"></div>
 </body>
 <script src="app.js"></script>
+
 
 </html>
